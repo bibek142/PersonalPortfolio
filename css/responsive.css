@@ -120,7 +120,8 @@
         display: none;
     }
     .homeSection{
-        margin: 50px 0px;
+        margin: 70px 0px;
+        height: 350px;
     }
     .buttons{
         margin-top: 18px;
@@ -139,7 +140,7 @@
     .content-box{
         width: 90%;
         margin: 0px auto;
-        height: 400px;
+        height: 500px;
     }
     .emain-box{
         flex-direction: column;
@@ -160,11 +161,14 @@
     }
     .pbox{
         width: 85%;
-        height: 520px;
+        height: 550px;
         margin: 30px 0px;
     }
     .pbox-big{
-        height: 620px;
+        height: 640px;
+    }
+    .p-duration{
+        width: 40%;
     }
     .smain-subbox{
         flex-direction: column;
@@ -175,7 +179,7 @@
     .sbox{
         width: 80%;
         margin: 20px 0px;
-        height: 170px;
+        height: 195px;
     }
     .cmain-box{
         flex-direction: column;
@@ -193,5 +197,6 @@
     .footerSection{
         font-size: 11px;
         font-weight: bold;
+        text-align: center;
     }
 }
