@@ -161,7 +161,7 @@
     }
     .pbox{
         width: 85%;
-        height: 490px;
+        height: 500px;
         margin: 30px 0px;
     }
     .pbox-full{
@@ -169,23 +169,23 @@
     }
     .pboxSec{
         width: 85%;
-        height: 492px;
+        height: 500px;
         margin: 30px 0px;
     }
     .pbox-fullSec{
-        height: 283px;
+        height: 292px;
     }
     .pbox-big{
-        height: 572px;
+        height: 585px;
     }
     .pbox-bgfull{
-        height: 305px;
+        height: 308px;
     }
     .pbox-bigSec{
-        height: 567px;
+        height: 580px;
     }
     .pbox-bgfullSec{
-        height: 308px;
+        height: 317px;
     }
     .p-duration{
         width: 40%;
