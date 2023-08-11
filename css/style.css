@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=REM:wght@100;200;300&family=Roboto+Mono:wght@100&display=swap');
 
-        * {
+        *{
             margin: 0px;
             padding: 0px;
         }
@@ -17,7 +17,7 @@
             top: 0px;
             z-index: 2;
         } */
-        .navbar {
+        .navbar{
             display: flex;
             justify-content: space-around;
             position: sticky;
@@ -29,26 +29,26 @@
             opacity: 0.6;
         }
 
-        .nav-list {
+        .nav-list{
             display: flex;
             justify-content: center;
             margin-right: -150px;
         }
 
-        .nav-list li {
+        .nav-list li{
             list-style: none;
             margin: 0 23px;
         }
         .darkbtn i{
             filter: invert(100);
         }
-        .nav-list li a {
+        .nav-list li a{
             text-decoration: none;
             color: white;
             transition: all 0.3s ease-in-out;
         }
 
-        .nav-list li a:hover {
+        .nav-list li a:hover{
             color: rgb(44, 163, 242);
             font-size: 17px;
             font-weight: bold;
@@ -58,7 +58,7 @@
             padding: 0px 20px;
             cursor: pointer;
         }
-        .left {
+        .left{
             display: flex;
             font-size: 1.6rem;
             color: rgb(44, 163, 242);
@@ -98,17 +98,17 @@
         .homeSection{
             margin: 110px 0px;
         }
-        .firstSection {
+        .firstSection{
             display: flex;
             justify-content: space-around;
             align-items: center;
         }
 
-        .firstSection>div {
+        .firstSection>div{
             width: 30%;
         }
 
-        .rightSection img {
+        .rightSection img{
             width: 72%;
         }
         .buttons{
@@ -152,17 +152,17 @@
             transform: scale(1.01);
         }
         
-        .hello {
+        .hello{
             font-size: 1.5rem;
         }
-        #element {
+        #element{
             color: rgb(20, 20, 52);
             font-size: 2rem;
         }
-        .work {
+        .work{
             font-size: 1.3rem;
         }
-        .work span {
+        .work span{
             color: rgb(14, 14, 24);
             font-size: 1.4rem;
         }
@@ -292,10 +292,37 @@
             position: relative;
             transition: all 0.5s ease-in-out;
         }
+        .pbox-full{
+            height: 240px;
+        }
+        .pboxSec{
+            width: 32%;
+            height: 400px;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+        }
+        .pbox-fullSec{
+            height: 240px;
+        }
         .pbox:hover{
             transform: scale(1.02);
         }
+        .pboxSec:hover{
+            transform: scale(1.02);
+        }
         .pbox::before{
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 15px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            background-color: rgb(1, 1, 16);
+            opacity: 0.3;
+        }
+        .pboxSec::before{
             content: "";
             position: absolute;
             top: 0px;
@@ -312,6 +339,15 @@
         }
         .pbox-big{
             height: 470px;
+        }
+        .pbox-bgfull{
+            height: 270px;
+        }
+        .pbox-bigSec{
+            height: 470px;
+        }
+        .pbox-bgfullSec{
+            height: 270px;
         }
         .p-title{
             font-size: 26px;
@@ -337,6 +373,7 @@
         }
         .summary{
             font-size: 15px;
+            cursor: pointer;
             font-family: 'REM', sans-serif;
         }
         .smain-box{
