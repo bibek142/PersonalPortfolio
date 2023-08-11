@@ -161,14 +161,37 @@
     }
     .pbox{
         width: 85%;
-        height: 550px;
+        height: 475px;
         margin: 30px 0px;
     }
+    .pbox-full{
+        height: 260px;
+    }
+    .pboxSec{
+        width: 85%;
+        height: 480px;
+        margin: 30px 0px;
+    }
+    .pbox-fullSec{
+        height: 275px;
+    }
     .pbox-big{
-        height: 640px;
+        height: 560px;
+    }
+    .pbox-bgfull{
+        height: 300px;
+    }
+    .pbox-bigSec{
+        height: 550px;
+    }
+    .pbox-bgfullSec{
+        height: 300px;
     }
     .p-duration{
         width: 40%;
+    }
+    .p-title{
+        padding: 0px 18px;
     }
     .smain-subbox{
         flex-direction: column;
