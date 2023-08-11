@@ -11,6 +11,9 @@
             background: linear-gradient(rgb(54, 85, 176), rgb(52, 41, 248));
             color: rgb(238, 227, 227);
         }
+       .darkmode{
+              font-family: 'REM', sans-serif;
+       }
         /* header{
             position: sticky;
             top: 0px;
@@ -26,7 +29,6 @@
             height: 80px;
             background-color: rgb(63, 58, 56);
             opacity: 0.6;
-               font-family: 'REM', sans-serif;
         }
 
         .nav-list{
@@ -95,8 +97,6 @@
             cursor: pointer;
             font-family: 'REM', sans-serif;
         }
-       .main-box{
-              font-family: 'REM', sans-serif;
         .homeSection{
             margin: 110px 0px;
         }
@@ -544,7 +544,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-               font-family: 'REM', sans-serif;
             background-color: rgb(63, 58, 56);
             font-size: 16px;
             height: 70px;
