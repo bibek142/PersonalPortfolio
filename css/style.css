@@ -10,7 +10,6 @@
         .body{
             background: linear-gradient(rgb(54, 85, 176), rgb(52, 41, 248));
             color: rgb(238, 227, 227);
-            font-family: 'REM', sans-serif;
         }
         /* header{
             position: sticky;
