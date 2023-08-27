@@ -14,12 +14,17 @@ burger.addEventListener('click', ()=>{
 
 darkBtn = document.querySelector('.darkbtn')
 darkmode = document.querySelector('.body') 
+darkButton = document.getElementById('darkButton');
 
 darkBtn.addEventListener('click', ()=>{
     darkmode.classList.toggle('body');
     if ( darkmode.classList.contains('body')) {
+        darkButton.classList.add('fa-sun');
+        darkButton.classList.remove('fa-moon');
         alert("Enables Darkmode");
     } else {
+        darkButton.classList.remove('fa-sun');
+        darkButton.classList.add('fa-moon');
         alert("Dark mode will be disabled");
     }
 })
